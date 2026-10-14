@@ -2,6 +2,8 @@
 
 SplitMate is a small, mobile-friendly shared-expense splitter built as a Ship Log MVP. It helps a group record who paid for shared expenses, calculate each person's fair share, and reduce the final balances into a simple set of payments.
 
+**Live demo:** [Try SplitMate](https://splitmate-ruddy.vercel.app/)
+
 ## Problem
 
 Shared spending becomes confusing quickly. Different people pay for food, transport, tickets, or supplies, and manually working out who owes whom is error-prone.
