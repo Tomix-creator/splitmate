@@ -81,3 +81,24 @@ I also reinforced the importance of defining the MVP before coding. Without a bo
 **V1 shipped.**
 
 The MVP is usable locally in a browser and demonstrates the complete core loop. Future features should be driven by feedback rather than added simply because they are technically possible.
+
+## 13. Week 7 update — October 14, 2026
+
+### Public release
+
+- Deployed the app to Vercel: https://splitmate-ruddy.vercel.app/
+- Turned off Vercel's login requirement and confirmed the app loads in a browser without signing in.
+- Added the live demo link to the README.
+
+### Manual browser check
+
+I used a temporary group with Ada, Tobi and Kunle. Ada recorded ₦24,000 in expenses, and Tobi recorded ₦6,000.
+
+- The app showed ₦30,000 total spending and a ₦10,000 share per person.
+- It showed Tobi paying Ada ₦4,000 and Kunle paying Ada ₦10,000.
+- Deleting Tobi's expense recalculated the total, fair share and settlements.
+- I reset the temporary group after the check; the app was left in its empty state.
+
+### Product decision
+
+The MVP still assumes every expense is shared equally by all group members. That keeps the first version's calculation simple. Unequal or participant-specific splits remain outside V1 and would need a separate design decision before implementation.
